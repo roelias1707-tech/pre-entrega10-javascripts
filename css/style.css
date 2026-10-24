@@ -1,0 +1,40 @@
+/* Estilos generales y diseño del simulador de pinturería */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+header h1 {
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+/* Tarjetas de productos */
+.card {
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/* Indicador de carga */
+#contenedor-carga {
+    font-size: 1.1rem;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+/* Ajustes visuales para formularios y botones */
+form .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

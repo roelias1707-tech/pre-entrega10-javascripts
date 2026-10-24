@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Látex Interior 4L", "precio": 24500, "stock": 15 },
+  { "id": 2, "nombre": "Esmalte Sintético 1L", "precio": 12800, "stock": 25 },
+  { "id": 3, "nombre": "Fijador Sellador 4L", "precio": 9500, "stock": 10 },
+  { "id": 4, "nombre": "Rodillo de Lana 22cm", "precio": 4200, "stock": 40 }
+]
